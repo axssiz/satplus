@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Нет подключения · Sat+</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin:0; min-height:100dvh; display:grid; place-items:center; font-family: system-ui, sans-serif; background:#fff; color:#17201c; padding:16px; text-align:center; }
+  @media (prefers-color-scheme: dark) { body { background:#0f1714; color:#eef3f0; } p { color:#a9b5af; } }
+  .tile { width:56px; height:56px; border-radius:16px; background:#16a35a; display:grid; place-items:center; margin:0 auto 16px; }
+  h1 { font-size:1.4rem; margin:0 0 8px; } p { color:#5d6b64; margin:4px 0; max-width:28rem; }
+  button { margin-top:16px; border:0; border-radius:12px; background:#16a35a; color:#fff; font-weight:600; padding:12px 18px; font-size:1rem; }
+</style>
+</head>
+<body>
+<main>
+  <div class="tile"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></div>
+  <h1>Нет подключения</h1>
+  <p>Проверьте интернет. Недавно открытые страницы доступны из кэша.</p>
+  <p lang="kk">Байланыс жоқ. Интернетті тексеріңіз.</p>
+  <button onclick="location.reload()">Повторить</button>
+</main>
+</body>
+</html>
